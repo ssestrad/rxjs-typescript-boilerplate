@@ -8,7 +8,7 @@ It shows how you can leverage RxJS to process user input and network calls.
 
 The aim of this boilerplate is to use no other framework or dependencies other than RxJS and dependencies that don't add to your JS bundle while still providing enough pieces to build a meaningful app. As such, a simple component project structure was setup with some helper classes found in the `lib` folder to simplify building the UI. The only other dependency apart from RxJS that gets included in the JS bundle is DOMPurify to prevent XSS attacks when rendering html using the `Component` class.
 
-An ESNext version of this project is available [here](./rxjs-boilerplate). Looking at the difference between the projects can be useful for seeing how to migrate an ESNext project to TypeScript.
+An ESNext version of this project is available [here](https://github.com/ssestrad/rxjs-boilerplate). Looking at the difference between the projects can be useful for seeing how to migrate an ESNext project to TypeScript.
 
 The project uses the [Babel TypeScript preset](https://babeljs.io/docs/en/babel-preset-typescript) that became available with Babel 7 which makes transpiling faster while still allowing you to have type checking. It also uses ESLint instead of TSLint with the recent support for TypeScript through the [typescript-eslint](https://github.com/typescript-eslint/typescript-eslint) project.
 
