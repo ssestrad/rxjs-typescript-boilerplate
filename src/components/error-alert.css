@@ -1,0 +1,9 @@
+.errorAlert {
+  border: 1px solid #ce0018;
+  background-color: #f97a7a;
+  color: #333;
+  padding: 10px 15px;
+  margin: 15px 0;
+  width: 100%;
+  box-sizing: border-box;
+}

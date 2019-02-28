@@ -1,0 +1,9 @@
+.infoAlert {
+  border: 1px solid #006ace;
+  background-color: #78a5cf;
+  color: white;
+  padding: 10px 15px;
+  margin: 15px 0;
+  width: 100%;
+  box-sizing: border-box;
+}

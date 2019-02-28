@@ -1,0 +1,47 @@
+{
+  "name": "rxjs-boilerplate",
+  "version": "1.0.0",
+  "description": "RxJS Boilerplate",
+  "main": "app",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "webpack-dev-server --output-public-path=/build/  --mode development --progress --open --hot",
+    "type-check": "tsc",
+    "type-check:watch": "npm run type-check -- --watch",
+    "build:types": "tsc --emitDeclarationOnly",
+    "build:js": "webpack --mode=production --progress",
+    "build": "npm run build:types && npm run build:js",
+    "lint": "eslint src/**/*.ts"
+  },
+  "author": "Stefan Estrada",
+  "license": "MIT",
+  "dependencies": {
+    "dompurify": "^1.0.9",
+    "rxjs": "^6.4.0"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.2.3",
+    "@babel/core": "^7.2.2",
+    "@babel/plugin-proposal-class-properties": "^7.3.0",
+    "@babel/plugin-proposal-object-rest-spread": "^7.3.2",
+    "@babel/preset-env": "^7.3.1",
+    "@babel/preset-typescript": "^7.1.0",
+    "@types/dompurify": "0.0.32",
+    "@typescript-eslint/eslint-plugin": "^1.4.2",
+    "@typescript-eslint/parser": "^1.4.2",
+    "babel-eslint": "^10.0.1",
+    "babel-loader": "^8.0.5",
+    "css-loader": "^1.0.1",
+    "eslint": "^5.13.0",
+    "eslint-config-airbnb-base": "^13.1.0",
+    "eslint-import-resolver-webpack": "^0.10.1",
+    "eslint-plugin-import": "^2.16.0",
+    "style-loader": "^0.23.1",
+    "tslint": "^5.13.0",
+    "typescript": "^3.3.3",
+    "typings-for-css-modules-loader": "^1.7.0",
+    "webpack": "^4.29.3",
+    "webpack-cli": "^3.2.3",
+    "webpack-dev-server": "^3.1.14"
+  }
+}
